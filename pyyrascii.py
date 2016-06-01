@@ -199,21 +199,21 @@ def get_pyyrascii (location, offset = 0, hourstep = 1, screenwidth = 80):
         if tempingraph in temptomatch:
           #print temptomatch, graph[i][:3].strip()
           if int(item['symbolnumber']) in [3,4]: #parly
-            graph[i] += "^^^"
+            graph[i] += "⛅"
           elif int(item['symbolnumber']) in [5,7,8,9,10,12,13]: #clouded
-            graph[i] += "==="
+            graph[i] += "☁"
           elif int(item['symbolnumber']) in [6,11,14,22]: #lightning
-            graph[i] += "=V="
+            graph[i] += "⚡"
           elif int(item['symbolnumber']) in [14,21]: #lightning and snow
-            graph[i] += "=<="
+            graph[i] += "*"
           elif int(item['symbolnumber']) in [22]: #lightning and rain
-            graph[i] += "=<="
+            graph[i] += "⁝"
           elif int(item['symbolnumber']) in [20,23]: #lightning and sleet
-            graph[i] += "=<!"
+            graph[i] += "!"
           elif int(item['symbolnumber']) == 15: #fog
-            graph[i] += "###"
+            graph[i] += "≡"
           else: #clear 1,2
-            graph[i] += "---"
+            graph[i] += "☀"
         else:
           graph[i] += "   "
       except KeyError as err:
@@ -223,7 +223,7 @@ def get_pyyrascii (location, offset = 0, hourstep = 1, screenwidth = 80):
       #TODO: scaling
       if (rain != 0) and (rain > 10-i):
         if int(item['symbolnumber']) in [7,12]: #sleet
-          rainsymbol = "!"
+          rainsymbol = "⁝"
         elif int(item['symbolnumber']) in [8,13]: #snow
           rainsymbol = "*"
         else: #if int(item['symbolnumber']) in [5,6,9,10,11,14]: #rain
@@ -288,8 +288,8 @@ def get_pyyrascii (location, offset = 0, hourstep = 1, screenwidth = 80):
   for g in graph.values():
     ret += g + "\n"
 
-  ret += "\nLegend left axis:   - Sunny   ^ Scattered   = Clouded   =V= Thunder   # Fog" +\
-         "\nLegend right axis:  | Rain    ! Sleet       * Snow       '  High uncertainty \n" +\
+  ret += "\nLegend left axis:   ☀ Sunny   ⛅ Scattered   ☁ Clouded   ⚡ Thunder   ≡ Fog\
+         "\nLegend right axis:  ⁝ Rain    ! Sleet       * Snow       '  High uncertainty \n" +\
     'Weather forecast from yr.no, delivered by the Norwegian Meteorological ' +\
     'Institute and the NRK. Try "finger @graph.no" for more info.'
 
