@@ -49,6 +49,13 @@ Weather forecast from yr.no, delivered by the Norwegian Meteorological Institute
 and the NRK. Try "finger @graph.no" for more info.
 ```
 
+
+This is how can be seen all this on Terminal with [PragmataPro](http://www.fsd.it/shop/fonts/pragmatapro/)
+
+![Command line meteo set in PragmataPro font](http://www.fsd.it/pragmatapro/meteo_PragmataPro.png)
+
+
+
 ## Thanks
 
 If you like the service, or want to report bugs, suggestions, etc, please drop
