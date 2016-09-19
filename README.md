@@ -25,26 +25,26 @@ The service can be used in the following ways:
 ## Example
 
 ```
-$ finger oslo@graph.no
-                   -= Meteogram for norway/oslo/oslo/oslo =-                    
- 'C                                                                   Rain (mm)
- 19------                                                             
- 17      ------                                                       
- 15            ---                                                    
- 13               ---                                                 
- 11                  ---                                              
-  9                                                               ---
-  7                     ^^^===                                 ^^^    
-  5                           ===---                        ^^^       
-  3                             |   ------^^^^^^         ^^^          2 mm
-  1                          |  |               ^^^^^^^^^             1 mm
-    15 16 17 18 19 20 21 22 23 00 01 02 03 04 05 06 07 08 09 10 11 12 Hour
+$ finger milan@graph.no
+                    -= Meteogram for italy/lombardy/milan =-                    
+ 'C                                                                   Rain (mm) 
+ 20     ☁☁☁☁☁☁                                                    
+ 19 ☀☀            ☁☁                                                 
+ 18                      ☀                                         ☁ 
+ 17                        ☀                                           
+ 16                          ☀                                   ⛅    
+ 15                                                           ⛅⛅       
+ 14                            ⛅                         ⛅⛅          
+ 13                               ⛅⛅⛅⛅    ⛅⛅⛅⛅⛅⛅             
+ 12                                       ⛅⛅                         
+ 11                                                                   1 mm 
+   _15_16_17_18 19 20 21 22 23 00 01 02 03 04 05 06_07_08_09_10_11_12 Hour
+ 
+     E SE SE SE  S  S  S SW SW SW  N NE NE NE  E SE SE SE NE NE  E  E Wind dir.
+     3  3  2  2  1  1  1  2  1  1  0  1  1  2  2  1  1  2  1  2  2  2 Wind(mps)
 
-    SW SW SW  W NW NW NW  W  W  W  W SW SW SW  S  S  S  S  S SW SW SW Wind dir.
-     3  2  2  3  3  3  3  2  2  2  2  2  2  2  2  2  3  6  7  6  7  7 Wind(mps)
-
-Legend left axis:   - Sunny   ^ Scattered   = Clouded   =V= Lightning   # Fog
-Legend right axis:  | Rain    ! Sleet       * Snow       '  High uncertainty
+Legend left axis:   ☀ Sunny   ⛅ Scattered   ☁ Clouded   ⚡ Thunder   ≡ Fog
+Legend right axis:  ⁝ Rain    ! Sleet       * Snow      '  High uncertainty
 Weather forecast from yr.no, delivered by the Norwegian Meteorological Institute
 and the NRK. Try "finger @graph.no" for more info.
 ```
