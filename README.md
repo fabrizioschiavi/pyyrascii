@@ -53,7 +53,7 @@ and the NRK. Try "finger @graph.no" for more info.
 This is how all this can be see on Terminal with [PragmataPro](http://www.fsd.it/shop/fonts/pragmatapro/)
 
 
-![Command line meteo set in PragmataPro font](pyyrascii/meteo_PragmataPro.png)
+![Command line meteo set in PragmataPro font](meteo_PragmataPro.png)
 
 
 
