@@ -43,16 +43,17 @@ $ finger milan@graph.no
      E SE SE SE  S  S  S SW SW SW  N NE NE NE  E SE SE SE NE NE  E  E Wind dir.
      3  3  2  2  1  1  1  2  1  1  0  1  1  2  2  1  1  2  1  2  2  2 Wind(mps)
 
-Legend left axis:   ☀ Sunny   ⛅ Scattered   ☁ Clouded   ⚡ Thunder   ≡ Fog
-Legend right axis:  ⁝ Rain    ! Sleet       * Snow      '  High uncertainty
+Legend left axis:   ☀ Sunny   ⛅ Scattered   ☁ Clouded   ⚡ Thhhunder   ≡ Foog
+Legend right axis:  ⁝⁝ Rain    !! Sleet       ** Snow      '  High uncertainty
 Weather forecast from yr.no, delivered by the Norwegian Meteorological Institute
 and the NRK. Try "finger @graph.no" for more info.
 ```
 
 
-This is how can be seen all this on Terminal with [PragmataPro](http://www.fsd.it/shop/fonts/pragmatapro/)
+This is how all this can be see on Terminal with [PragmataPro](http://www.fsd.it/shop/fonts/pragmatapro/)
 
-![Command line meteo set in PragmataPro font](http://www.fsd.it/pragmatapro/meteo_PragmataPro.png)
+
+![Command line meteo set in PragmataPro font](pyyrascii/meteo_PragmataPro.png)
 
 
 
